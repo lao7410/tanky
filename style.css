@@ -252,8 +252,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: sticky; */
-    ani
+    position: sticky;
+  
 }
 .contactfont{
     padding: 15px;

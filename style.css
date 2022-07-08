@@ -110,6 +110,13 @@ main{
     transform: scale(3) ;
 
 }
+.desafio_entregable{
+    color: antiquewhite;
+    transform: rotate(150deg);
+}
+.desafio_entregable:hover{
+    scale: 120pxgit;
+}
 .Seguridad{
     position: relative;
 }

@@ -49,9 +49,23 @@ nav {
     display: flex;
     justify-content: space-around;
 }
-.logo{
+.logo{ /* sacar mas tarde es para entrega nomas */
     width: 250px;
     height: fit-content;
+    animation: fadein;
+    animation-duration: 2s;
+    animation-iteration-count: 3s;
+}
+@keyframes fadein{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 10;
+    }
+}
+@keyframes animate__lightSpeedInRight{
+    
 }
 .encabezado__lista{
     display: flex;
@@ -239,6 +253,7 @@ footer {
     justify-content: center;
     align-items: center;
     /* position: sticky; */
+    ani
 }
 .contactfont{
     padding: 15px;

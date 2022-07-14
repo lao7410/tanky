@@ -53,6 +53,21 @@ footer ul{
     height: 150px;
 
 }
+.nosotros{
+    display: flex;
+}
+.consulta1{
+    text-align: center;
+    margin-top: 25px;
+    color:rgba(172, 224, 185, 0.829);
+    
+}
+.form_nos{
+    color: rgba(172, 224, 185, 0.829);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
 
 
 
@@ -325,8 +340,18 @@ footer ul{
     margin-bottom: 25px;
     justify-content: center;
   }
-  
-@media screen and (max-width: 997px){
+  .tit_nosotros{
+    color: rgba(34, 197, 148, 0.801);
+  }
+  .confian_en_nosotros{
+    text-align: center;
+    color: rgba(34, 197, 148, 0.801);
+  }
+  .confian_en_nosotros1{
+    display: flex;
+    
+  }
+@media screen and (max-width: 586px){
     .itemSubmenu:hover .encabezado__lista__submenu{
         display: none;
     }

@@ -20,68 +20,114 @@
     </head>
 <body>
     <header>
-        <div class="encabezado">
-            <img src="../imagenes/logo_tanky_sin_fondo_blanco_peque_1.png" alt="Logo de la empresa" class="logo">
-            <nav>
-                <ul class="encabezado__lista">
-                    <li class="encabezado__lista__item"> <a href="../index.html">HOME</a></li>
-                    <li class="encabezado__lista__item"> <a href="./nosotros.html">NOSOTROS</a> 
-                    </li>
-                    <li class="encabezado__lista__item itemSubmenu"> <a href="./servicios.html">SERVICIOS</a>
-                        <ul class="encabezado__lista__submenu">
-                           <li><a href=".servicios.html">SOPORTE TECNICO</a></li>
-                           <li><a href=".servicios.html">REDES Y WIFI</a></li>
-                           <li><a href=".servicios.html">DESARROLLO</a></li>
-                           <li><a href=".servicios.html">CIBER SEGURIDAD</a></li>
-                           <li><a href=".servicios.html">MAS...</a></li>
-                        </ul>
-                    </li>
-                    <li class="encabezado__lista__item"> <a href="./clientes.html">CLIENTES</a>
-                    </li>
-                    <li class="encabezado__lista__item"> <a href="./contacto.html">CONTACTO</a>
-                    </li>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img src="../imagenes/logo_tanky_sin_fondo_blanco_peque_1.png" alt="Logo empresa"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      SERVICIOS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="./servicios.html">Soporte técnico</a></li>
+                      <li><a class="dropdown-item" href="./servicios.html">Redes y WiFi</a></li>
+                      <li><a class="dropdown-item" href="./servicios.html">Desarrollo</a></li>
+                      <li><a class="dropdown-item" href="./servicios.html">Ciberseguridad</a></li>
+                      <li><a class="dropdown-item" href="./servicios.html">Mas...</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./clientes.html">CLIENTES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                  </li>
                 </ul>
-            </nav>
-        </div>
+              </div>
+            </div>
+          </nav>        
     </header>
 
     <main>
+        <div class="nosotros">
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="col">
+                        <h2 class="tit_nosotros">¿QUIENES SOMOS?</h2> 
+                </div>
+                    <div class="col">
+                        <h2 class="tit_nosotros">PROPUESTA DE VALOR:</h2> 
+                    </div>
+                </div>
+                <div class="row align-items-top">
+                    <div class="col">
+                        <h3>
+                            Somos una Empresa de Servicios de TI especializado en:
+                            Gestionar Activos de Tecnología profesionalmente, para que éstos tengan una alta confiabilidad y sean utilizados con la mayor eficiencia y eficiencia.
+                            Brindar Asistencia Técnica a Usuarios, con el enfoque de resolver cualquier solicitud, de la manera menos intrusiva posible.
+                        </h3>
+                    </div>
+                    <div class="col">
+                        <h3>Nuestra propuesta de Valor se basa en una Gestión de los Activos de TI en las Empresas, con el fin de garantizar en nuestras soluciones, la máxima: <br><br>
+                            <div>
+                                - DISPONIBILIDAD <br>
 
+                                - FIABILIDAD  <br>     
+                                
+                                - CAPACIDAD <br>
+                                
+                                - SEGURIDAD <br>
+                                
+                                - EFICIENCIA <br>
+                                
+                                - CUMPLIMIENTO <br>
+                            </div>       
+                        </h3>
+                    </div>
+                </div>
+            </div>    
+        </div>
         <section>
-            <div class="img_div1_nosotros"><!-- preguntar como hacer para que la imagen quede entera, no se repita, y abarque el ancho de la pantalla, y baje depndiendo que opcion del nav se selecciona -->
-                <img src="../imagenes/img_nosotros.jfif" alt="FOTO DE LA EMPRESA" > 
-            </div>
-            <img src="../imagenes/imagen_ 6.jpeg" alt=IMAGEN SOBRE NOSOTROS" class="sobre_nosotros">
-            <div>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non doloremque deserunt velit numquam facere. Voluptatem, qui. Ipsum quo sint illo sequi adipisci aspernatur voluptates nobis facilis placeat. Commodi, suscipit illo!
-                </p>
-            </div>
-        </section>
-        <section>
-            <h2></h2>
-        </section>
-        <section>
-            <div>
-               <section class="forminicial">
-                    DEJANOS TU CONSULTA
-               <form>
-                   <div>
-                       <label for="NOMBRE Y APLLIDO">NOMBRE Y APELLIDO</label>
-                       <input type="text" placeholder="NOMBRE Y APELLIDO">
-                   </div>
-                   <div>
-                       <label for="EMAIL">EMAIL</label>
-                       <input type="EMAIL" placeholder="EMAIL">
-                   </div>
-                   <div>
-                       <label for="CONSULTA">CONSULTA</label>
-                       <input type="text" id="CONSULTA">
-                   </div>
-                       <input type="reset">
-                       <input type="submit">
-               </form>
-        </section>
+            <div class="form_nos">
+                <div class="col-sm-12 col-lg-6">
+                    <h2 class="consulta1">DEJANOS TU CONSULTA</h2>
+                    <form class="form__container d-flex justify-content-center">
+                        <fieldset class="dentro_del_form_1">
+                                <br>
+                            <label for="nombre">Nombre y Apellido</label>
+                            <input type="text" name="nombre">
+                                <br>
+                                <br>
+                            <label for="mail"> Email</label>
+                            <input type="text" name="mail">
+                                <br>
+                                <br>
+                            <label for="telefono"> Telefono</label>
+                            <input type="text" name="telefono">
+                                <br>
+                                <br>
+                            <label for="consulta"> CONSULTA</label>
+                            <input type="text" name="mail">
+                                <br> 
+                            <div>
+                                <input type="reset" value="RESET" class="button" />
+                                <input type="submit" value="ENVIAR" class="button" />
+                            </div> 
+                        </fielset>
+                    </form>
+                  </div>
+                </div>
+              </section>
     </main>
 
     <footer>

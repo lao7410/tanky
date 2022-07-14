@@ -3,59 +3,94 @@
     padding: 0;
 }
 
-html{
+/* html{
     height: 100%;
-}
-
+} */
 body{
-    margin: 0;
-    background-image: url(./imagenes/fondo_main.jpg);
-    background-size: cover;
-    /* background-position: center; */
-    /* width: auto; */
-    height: 100%;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr 1fr 150px ;
-    grid-template-areas:
-        'header'
-        'main'
-        'footer'
-    ;
+    background-color: black;
+    font-family: 'Share Tech', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+
 }
-ul{
+.navbar-brand{
+    width: 250px;
+    height: fit-content;
+}
+.navbar-collapse .navbar-nav .nav-link{
+    font-family: 'Share Tech', sans-serif;    
+    color:rgba(172, 224, 185, 0.829);
+    font-size: 25px;
+    gap: 20px;
+}
+.iconoServ{
+    margin-top: 25px;
+}
+/* .show{
+    background-color:rgba(255, 255, 255, 0.5);
+}
+ */
+.navbar-collapse{
+    flex-grow: initial;
+}
+footer ul{
     list-style: none;
     display: flex;
+    justify-content: space-evenly;
+    color: rgba(172, 224, 185, 0.829);
+    font-size: 25px
 }
-ul li a {
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.carrou{
+    background-color: white;
+}
+.carrouselpage1{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+
+}
+
+
+
+/* ul{
+    list-style: none;
+    display: flex;
+} */
+/* ul li a {
     margin: 20px;
     font-size: 1.3rem;
     text-decoration: none;
-}
+} */
 
-header{
+/* header{
     display: flex;
     justify-content: space-between;
     padding: 10px;
-}
-nav {
+} */
+/* nav {
     display: flex;
     align-items: flex-start;
     margin-top: auto;
 
-}
-.encabezado{
+} */
+
+
+/* .encabezado{
     grid-area: header;
     display: flex;
     justify-content: space-around;
-}
-.logo{ /* sacar mas tarde es para entrega nomas */
+} */
+/* .logo{ 
     width: 250px;
     height: fit-content;
     animation: fadein;
     animation-duration: 2s;
     animation-iteration-count: 3s;
-}
+} */
 @keyframes fadein{
     0%{
         opacity: 0;
@@ -93,19 +128,19 @@ nav {
     position: absolute;
     display: none;
     /* top: 80%; */
-    font-size: 20px;
+    font-size: 25px;
 }
 .itemSubmenu:hover .encabezado__lista__submenu{
     display: block;
 }
 
-main{
+/* main{
     background-image: url(./imagenes/fondo_main.jpg);
     background-repeat: repeat;
-}
+} */
 
 .icono_servicios{
-    width: 85%;
+    width: 100;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
@@ -115,6 +150,7 @@ main{
     font-weight: lighter;
     font-size: small;
     font-family: 'Share Tech', sans-serif, ;
+    gap: 35px;
 }
 .transi_logos{
     transition: transform 2s, background-color 2s;
@@ -221,8 +257,6 @@ main{
     display: flex;
     padding: 15px;
 }
-
-
 .img2_main{
     display: flex;
     height:max-content ;
@@ -242,24 +276,12 @@ main{
     height:300px;
     padding: 15px;
 }
-
-footer {
-    padding: 15px;
-    /* background-color: aliceblue; */
-    /* background-image: url(./imagenes/fondo_main.jpg); */
-    background-repeat: repeat;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: sticky;
-  
-}
 .contactfont{
     padding: 15px;
     color: rgba(211, 212, 216, 0.801);
     font-weight: lighter;
     font-family: 'Share Tech', sans-serif;
+    text-align: center;
 }
 .forminicial{
     color: rgba(211, 212, 216, 0.801);
@@ -273,9 +295,9 @@ footer {
 }
 .googlemap{
     display: flex;
-    margin-top: 150px;
     align-items: center;
     padding: 50px;
+    justify-content: center;
 }
 .formulario {
     display: flex;
@@ -300,9 +322,11 @@ footer {
   }
   .button {
     margin: auto;
+    margin-bottom: 25px;
+    justify-content: center;
   }
   
-@media screen and (max-width: 375px){
+@media screen and (max-width: 997px){
     .itemSubmenu:hover .encabezado__lista__submenu{
         display: none;
     }
@@ -377,11 +401,12 @@ footer {
         flex-direction: column;
     }
     .googlemap{
-        width: 200px;
+       display: none;
+        /*  width: 200px;
         height: 150px;
         display: flex;
         align-items: center;
-        padding: center;
+        padding: center; */
     }
     .formulario {
         margin: 0;
@@ -404,6 +429,8 @@ footer {
         color: rgba(211, 212, 216, 0.801);
         font-weight: lighter;
         font-family: 'Share Tech', sans-serif;
+        text-align: center;
+   
 
     }
     .dentro_del_form_1{
@@ -412,119 +439,5 @@ footer {
     }
     
 }
- /* main{
-        background-image: url(./imagenes/fondo_main.jpg);
-        background-repeat: repeat;
-        width:min-content;
-    } */
-  /*   .logos_main{
-        width: max-content;
-        height: fit-content;
-        display:grid;
 
-    } */
-
-
-
-/* .redes{
-    display: flex;
-    justify-content: center;
-} */
-
-/* .tope{
-    display: flex;
-   
-}
-.tope_logo{
-    display: flex;
-    
-}
-
-.logo{
-    width: 250px;
-    object-fit: contain;
-    align-items: center;
-    justify-content: center;
-}
-
-.informacion_empresa{
-    flex-wrap: nowrap;
-    color: rgba(28, 70, 153, 0.747);
-    font-weight: lighter;
-    font-size: 14px;
-    font-family: 'Share Tech', sans-serif;
-    border: solid 1px black;
-}
-
-.info_empresa{
-    list-style: none;
-    align-items: flex-end;
-    width: 100%;
-    display: flex;
-    margin-top: 5px;
-    margin-right: 0%;
-}
-
-
-main{
-    grid-area: main;
-    background-color: brown;
-}
-
-footer{
-    grid-area: footer;
-    background-color: chartreuse;
-} */
-
-
-/* .tope{
-    margin-right: 80%;
-    margin-left: 0%;
-    width: 40%;
-    display: grid;
-    grid-template-columns: (2,250px);
-    grid-auto-flow:dense ;
-    align-items: center;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 20px;
-
-}
-
-.logo{
-    width: 25%;
-    object-fit: contain ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid 1px black;
-}
-
-.informacion_empresa{
-    color: rgba(28, 70, 153, 0.747);
-    font-weight: lighter;
-    font-size: 14px;
-    font-family: 'Share Tech', sans-serif;
-    border: solid 1px black;
-    
-}
-
-.info_empresa{
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    width: 35%;
-    height: 35%;
-    flex-direction: row;
-}
-
-.estilo_info{
-    border: solid 1px black;
-}
-
-.menu{
-    display: grid;
-    grid-template-columns: 1/3;
-}
-
- */
+ 

@@ -24,11 +24,24 @@ body{
 }
 .iconoServ{
     margin-top: 25px;
+    display: flex;
+    text-align: center;
 }
+
 /* .show{
     background-color:rgba(255, 255, 255, 0.5);
 }
  */
+ .logotipos{
+    font-size: 45px;
+    display: flex;
+    padding: 25px;
+    color: rgb(172, 224, 185, 0.829);
+ }
+.logotipos:hover{
+    color: rgb(126, 204, 23);
+    font-size: 49px;
+}
 .navbar-collapse{
     flex-grow: initial;
 }
@@ -50,12 +63,9 @@ footer ul{
 .carrouselpage1{
     display: flex;
     justify-content: space-between;
-    height: 150px;
+    height: 300px;
+}
 
-}
-.nosotros{
-    display: flex;
-}
 .consulta1{
     text-align: center;
     margin-top: 25px;
@@ -67,8 +77,48 @@ footer ul{
     display: flex;
     text-align: center;
     justify-content: center;
+    background-image: url(./imagenes/fondo_main.jpg);
+}
+.separador{
+    width: 70px;
+    height: 5px;
+    border-radius: 45px;
+    background-color: rgb(103, 226, 144);
+    margin-bottom: 15px;
+    display: flex;
+    align-content: center;
 }
 
+.imagen_servicios{
+    display: flex;
+    height: 15px;
+    width: 200px;
+}
+.imagen_clientes{
+    height: 300px;
+    width: 300px;
+}
+.carousel{
+    width: max-content;
+
+}
+.corousel_pag_1{
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.carousel-item{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.carousel-item img{
+    height: 400px;
+    object-fit:contain;
+}
+.tit_nosotros1{
+    text-align: center;
+}
 
 
 /* ul{
@@ -155,7 +205,7 @@ footer ul{
 } */
 
 .icono_servicios{
-    width: 100;
+    /* width: 100; */
     flex-wrap: wrap;
     display: flex;
     align-items: center;
@@ -165,7 +215,7 @@ footer ul{
     font-weight: lighter;
     font-size: small;
     font-family: 'Share Tech', sans-serif, ;
-    gap: 35px;
+    gap: 55px;
 }
 .transi_logos{
     transition: transform 2s, background-color 2s;
@@ -185,12 +235,18 @@ footer ul{
 .Seguridad{
     position: relative;
 }
-.icono_servicios__Subsecurity{
+
+.text_format_logos{
+    font-weight: bold;
+    font-size: medium;
+}
+
+/* .icono_servicios__Subsecurity{
     position: absolute;
     display: none;
     top: 100%;
     font-size: 20px;
-}
+} */
 
 .Seguridad:hover .icono_servicios__Subsecurity{
     display: block;
@@ -198,12 +254,12 @@ footer ul{
 .Servidor{
     position: relative;
 }
-.icono_servicios__Subservice{
+/* .icono_servicios__Subservice{
     position: absolute;
     display: none;
     top: 100%;
     font-size: 20px;
-}
+} */
 .Servidor:hover .icono_servicios__Subservice{
     display: block;
 
@@ -213,12 +269,12 @@ footer ul{
     position: relative;
 }
 
-.icono_servicios__Subsupport{
+/* .icono_servicios__Subsupport{
     position: absolute;
     display: none;
     top: 100%;
     font-size: 20px;
-}
+} */
 
 .Soporte:hover .icono_servicios__Subsupport{
     display: block;
@@ -228,12 +284,12 @@ footer ul{
     position: relative;
 }
 
-.icono_servicios__Subequip{
+/* .icono_servicios__Subequip{
     position: absolute;
     display: none;
     top: 100%;
     font-size: 20px;
-}
+} */
 
 .Equipamiento:hover .icono_servicios__Subequip{
     display: block;
@@ -243,12 +299,12 @@ footer ul{
     position: relative;
 }
 
-.icono_servicios__Subcapacitacion{
+/* .icono_servicios__Subcapacitacion{
     position: absolute;
     display: none;
     top: 100%;
     font-size: 20px;
-}
+} */
 
 .Capacitacion:hover .icono_servicios__Subcapacitacion{
     display: block;
@@ -352,10 +408,10 @@ footer ul{
     
   }
 @media screen and (max-width: 586px){
-    .itemSubmenu:hover .encabezado__lista__submenu{
+    /* .itemSubmenu:hover .encabezado__lista__submenu{
         display: none;
-    }
-    .icono_servicios{
+    } */
+    /* .icono_servicios{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2,300px) ;
@@ -368,8 +424,8 @@ footer ul{
         font-weight: lighter;
         font-size: small;
         font-family: 'Share Tech', sans-serif, ;
-    }
-    .icono_servicios__Subsecurity{
+    } */
+ /*    .icono_servicios__Subsecurity{
         position: right;
         display:grid;
         align-content: flex-start;
@@ -377,8 +433,8 @@ footer ul{
         top: 100%;
         font-size: 20px;
         
-    }
-    .icono_servicios__Subservice{
+    } */
+   /*  .icono_servicios__Subservice{
         position: absolute;
         display:flex;
         align-content: flex-end;
@@ -405,7 +461,7 @@ footer ul{
         align-content: flex-end;
         top: 100%;
         font-size: 20px;
-    }
+    } */
     .text_main{
         margin-top: 120px;
         margin-bottom: 25px;
@@ -418,6 +474,7 @@ footer ul{
         display: flex;
         padding: 15px;
         flex-direction: column-reverse;
+        width: 100%;
 
     }
     .conten_xq_eleg2{

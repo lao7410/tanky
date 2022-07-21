@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: black;
+  font-family: 'Share Tech', sans-serif;
+  color: rgba(255, 255, 255, 0.5); }
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  color: rgba(172, 224, 185, 0.829);
+  font-size: 25px; }
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px; }
+
+footer {
+  display: flex; }
+  footer ul {
+    list-style: none;
+    justify-content: space-evenly;
+    color: rgba(172, 224, 185, 0.829);
+    font-size: 25px; }
+
+.contactfont {
+  padding: 15px;
+  color: rgba(211, 212, 216, 0.801);
+  font-weight: lighter;
+  font-family: 'Share Tech', sans-serif;
+  text-align: center; }

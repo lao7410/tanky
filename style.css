@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -6,23 +6,26 @@
 /* html{
     height: 100%;
 } */
-body{
+body {
     background-color: black;
     font-family: 'Share Tech', sans-serif;
     color: rgba(255, 255, 255, 0.5);
 
 }
-.navbar-brand{
+
+.navbar-brand {
     width: 250px;
     height: fit-content;
 }
-.navbar-collapse .navbar-nav .nav-link{
-    font-family: 'Share Tech', sans-serif;    
-    color:rgba(172, 224, 185, 0.829);
+
+.navbar-collapse .navbar-nav .nav-link {
+    font-family: 'Share Tech', sans-serif;
+    color: rgba(172, 224, 185, 0.829);
     font-size: 25px;
     gap: 20px;
 }
-.iconoServ{
+
+.iconoServ {
     margin-top: 25px;
     display: flex;
     text-align: center;
@@ -32,54 +35,62 @@ body{
     background-color:rgba(255, 255, 255, 0.5);
 }
  */
- .logotipos{
+.logotipos {
     font-size: 45px;
     display: flex;
     padding: 25px;
     color: rgb(172, 224, 185, 0.829);
- }
-.logotipos:hover{
+}
+
+.logotipos:hover {
     color: rgb(126, 204, 23);
     font-size: 49px;
 }
-.navbar-collapse{
+
+.navbar-collapse {
     flex-grow: initial;
 }
-footer ul{
+
+footer ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
     color: rgba(172, 224, 185, 0.829);
     font-size: 25px
 }
-.copyright{
+
+.copyright {
     display: flex;
     justify-content: center;
     margin-top: 15px;
 }
-.carrou{
+
+.carrou {
     background-color: white;
 }
-.carrouselpage1{
+
+.carrouselpage1 {
     display: flex;
     justify-content: space-between;
     height: 300px;
 }
 
-.consulta1{
+.consulta1 {
     text-align: center;
     margin-top: 25px;
-    color:rgba(172, 224, 185, 0.829);
-    
+    color: rgba(172, 224, 185, 0.829);
+
 }
-.form_nos{
+
+.form_nos {
     color: rgba(172, 224, 185, 0.829);
     display: flex;
     text-align: center;
     justify-content: center;
     background-image: url(./imagenes/fondo_main.jpg);
 }
-.separador{
+
+.separador {
     width: 70px;
     height: 5px;
     border-radius: 45px;
@@ -89,34 +100,40 @@ footer ul{
     align-content: center;
 }
 
-.imagen_servicios{
+.imagen_servicios {
     display: flex;
     height: 15px;
     width: 200px;
 }
-.imagen_clientes{
+
+.imagen_clientes {
     height: 300px;
     width: 300px;
 }
-.carousel{
+
+.carousel {
     width: max-content;
 
 }
-.corousel_pag_1{
+
+.corousel_pag_1 {
     height: 250px;
     display: flex;
     justify-content: space-between;
 }
-.carousel-item{
+
+.carousel-item {
     height: 200px;
     width: 100%;
     text-align: center;
 }
-.carousel-item img{
+
+.carousel-item img {
     height: 400px;
-    object-fit:contain;
+    object-fit: contain;
 }
-.tit_nosotros1{
+
+.tit_nosotros1 {
     text-align: center;
 }
 
@@ -156,18 +173,19 @@ footer ul{
     animation-duration: 2s;
     animation-iteration-count: 3s;
 } */
-@keyframes fadein{
-    0%{
+@keyframes fadein {
+    0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 10;
     }
 }
-@keyframes animate__lightSpeedInRight{
-    
-}
-.encabezado__lista{
+
+@keyframes animate__lightSpeedInRight {}
+
+.encabezado__lista {
     display: flex;
     justify-content: space-between;
     align-items: top;
@@ -179,23 +197,25 @@ footer ul{
     flex-wrap: wrap;
 }
 
-.encabezado__lista__item{
+.encabezado__lista__item {
     display: inline-block;
     margin: 15px;
 }
 
-.itemSubmenu{
+.itemSubmenu {
     position: relative;
 
 }
-.encabezado__lista__submenu{
+
+.encabezado__lista__submenu {
     list-style: none;
     position: absolute;
     display: none;
     /* top: 80%; */
     font-size: 25px;
 }
-.itemSubmenu:hover .encabezado__lista__submenu{
+
+.itemSubmenu:hover .encabezado__lista__submenu {
     display: block;
 }
 
@@ -204,7 +224,7 @@ footer ul{
     background-repeat: repeat;
 } */
 
-.icono_servicios{
+.icono_servicios {
     /* width: 100; */
     flex-wrap: wrap;
     display: flex;
@@ -217,26 +237,31 @@ footer ul{
     font-family: 'Share Tech', sans-serif, ;
     gap: 55px;
 }
-.transi_logos{
+
+.transi_logos {
     transition: transform 2s, background-color 2s;
     background-color: antiquewhite;
 }
-.transi_logos:hover{
-    transform: scale(3) ;
+
+.transi_logos:hover {
+    transform: scale(3);
 
 }
-.desafio_entregable{
+
+.desafio_entregable {
     color: antiquewhite;
     transform: rotate(150deg);
 }
-.desafio_entregable:hover{
+
+.desafio_entregable:hover {
     scale: 120pxgit;
 }
-.Seguridad{
+
+.Seguridad {
     position: relative;
 }
 
-.text_format_logos{
+.text_format_logos {
     font-weight: bold;
     font-size: medium;
 }
@@ -248,24 +273,26 @@ footer ul{
     font-size: 20px;
 } */
 
-.Seguridad:hover .icono_servicios__Subsecurity{
+.Seguridad:hover .icono_servicios__Subsecurity {
     display: block;
 }
-.Servidor{
+
+.Servidor {
     position: relative;
 }
+
 /* .icono_servicios__Subservice{
     position: absolute;
     display: none;
     top: 100%;
     font-size: 20px;
 } */
-.Servidor:hover .icono_servicios__Subservice{
+.Servidor:hover .icono_servicios__Subservice {
     display: block;
 
 }
 
-.Soporte{
+.Soporte {
     position: relative;
 }
 
@@ -276,11 +303,11 @@ footer ul{
     font-size: 20px;
 } */
 
-.Soporte:hover .icono_servicios__Subsupport{
+.Soporte:hover .icono_servicios__Subsupport {
     display: block;
 }
 
-.Equipamiento{
+.Equipamiento {
     position: relative;
 }
 
@@ -291,11 +318,11 @@ footer ul{
     font-size: 20px;
 } */
 
-.Equipamiento:hover .icono_servicios__Subequip{
+.Equipamiento:hover .icono_servicios__Subequip {
     display: block;
 }
 
-.Capacitacion{
+.Capacitacion {
     position: relative;
 }
 
@@ -306,10 +333,11 @@ footer ul{
     font-size: 20px;
 } */
 
-.Capacitacion:hover .icono_servicios__Subcapacitacion{
+.Capacitacion:hover .icono_servicios__Subcapacitacion {
     display: block;
 }
-.text_main{
+
+.text_main {
     margin-top: 120px;
     margin-bottom: 75px;
     color: rgba(211, 212, 216, 0.801);
@@ -317,44 +345,53 @@ footer ul{
     font-family: 'Share Tech', sans-serif;
     text-align: center;
 }
-.text_xq_eleg{
+
+.text_xq_eleg {
     display: flex;
 }
-.conten_xq_eleg{
-    display: flex;
-    padding: 15px;
-}
-.conten_xq_eleg2{
+
+.conten_xq_eleg {
     display: flex;
     padding: 15px;
 }
-.img2_main{
+
+.conten_xq_eleg2 {
     display: flex;
-    height:max-content ;
     padding: 15px;
 }
-.xq_eleg{
+
+.img2_main {
+    display: flex;
+    height: max-content;
+    padding: 15px;
+}
+
+.xq_eleg {
     display: flex;
     color: rgba(211, 212, 216, 0.801);
     font-weight: lighter;
     font-family: 'Share Tech', sans-serif;
 }
-.text_xq_eleg{
+
+.text_xq_eleg {
     display: flex;
 }
-.img3_main{
+
+.img3_main {
     display: flex;
-    height:300px;
+    height: 300px;
     padding: 15px;
 }
-.contactfont{
+
+.contactfont {
     padding: 15px;
     color: rgba(211, 212, 216, 0.801);
     font-weight: lighter;
     font-family: 'Share Tech', sans-serif;
     text-align: center;
 }
-.forminicial{
+
+.forminicial {
     color: rgba(211, 212, 216, 0.801);
     font-weight: bold;
     font-family: 'Share Tech', sans-serif;
@@ -364,25 +401,28 @@ footer ul{
     margin-top: 50px;
     display: flex;
 }
-.googlemap{
+
+.googlemap {
     display: flex;
     align-items: center;
     padding: 50px;
     justify-content: center;
 }
+
 .formulario {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
-  }
-  .dentro_del_form {
+}
+
+.dentro_del_form {
     display: flex;
     justify-content: center;
     width: 50%;
-  }  
-  .dentro_del_form_1 {
-    /* padding: 15px; */
+}
+
+.dentro_del_form_1 {
     display: flex;
     flex-direction: column;
     width: 65%;
@@ -390,24 +430,30 @@ footer ul{
     font-weight: lighter;
     font-size: 20px;
     border-radius: 5px;
-  }
-  .button {
+}
+
+.button {
     margin: auto;
     margin-bottom: 25px;
     justify-content: center;
-  }
-  .tit_nosotros{
+}
+
+.tit_nosotros {
     color: rgba(34, 197, 148, 0.801);
-  }
-  .confian_en_nosotros{
+}
+
+.confian_en_nosotros {
     text-align: center;
     color: rgba(34, 197, 148, 0.801);
-  }
-  .confian_en_nosotros1{
+}
+
+.confian_en_nosotros1 {
     display: flex;
-    
-  }
-@media screen and (max-width: 586px){
+
+}
+
+@media screen and (max-width: 586px) {
+
     /* .itemSubmenu:hover .encabezado__lista__submenu{
         display: none;
     } */
@@ -425,7 +471,7 @@ footer ul{
         font-size: small;
         font-family: 'Share Tech', sans-serif, ;
     } */
- /*    .icono_servicios__Subsecurity{
+    /*    .icono_servicios__Subsecurity{
         position: right;
         display:grid;
         align-content: flex-start;
@@ -434,7 +480,7 @@ footer ul{
         font-size: 20px;
         
     } */
-   /*  .icono_servicios__Subservice{
+    /*  .icono_servicios__Subservice{
         position: absolute;
         display:flex;
         align-content: flex-end;
@@ -462,7 +508,7 @@ footer ul{
         top: 100%;
         font-size: 20px;
     } */
-    .text_main{
+    .text_main {
         margin-top: 120px;
         margin-bottom: 25px;
         color: rgba(211, 212, 216, 0.801);
@@ -470,56 +516,61 @@ footer ul{
         font-family: 'Share Tech', sans-serif;
         text-align: center;
     }
-    .conten_xq_eleg{
+
+    .conten_xq_eleg {
         display: flex;
         padding: 15px;
         flex-direction: column-reverse;
         width: 100%;
 
     }
-    .conten_xq_eleg2{
+
+    .conten_xq_eleg2 {
         display: flex;
         padding: 15px;
         flex-direction: column;
     }
-    .googlemap{
-       display: none;
+
+    .googlemap {
+        display: none;
         /*  width: 200px;
         height: 150px;
         display: flex;
         align-items: center;
         padding: center; */
     }
+
     .formulario {
         margin: 0;
         padding: 0;
         display: grid;
-        grid-template-columns: repeat(1,150px);
-        grid-template-rows: repeat(2,250px);
-        justify-content:space-around;
+        grid-template-columns: repeat(1, 150px);
+        grid-template-rows: repeat(2, 250px);
+        justify-content: space-around;
         align-items: center;
         margin-bottom: 15px;
     }
-    .dentro_del_form{
+
+    .dentro_del_form {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 50%;
     }
-    .contactfont{
+
+    .contactfont {
         display: flex;
         color: rgba(211, 212, 216, 0.801);
         font-weight: lighter;
         font-family: 'Share Tech', sans-serif;
         text-align: center;
-   
+
 
     }
-    .dentro_del_form_1{
+
+    .dentro_del_form_1 {
         display: grid;
         justify-content: center;
     }
-    
-}
 
- 
+}

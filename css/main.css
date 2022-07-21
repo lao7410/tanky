@@ -19,6 +19,9 @@ footer ul {
   justify-content: center;
   margin-top: 15px; }
 
+/* body{
+    background-color: $color-principal;
+} */
 footer {
   display: flex; }
   footer ul {

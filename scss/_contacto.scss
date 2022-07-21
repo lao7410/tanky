@@ -1,11 +1,14 @@
+/* body{
+    background-color: $color-principal;
+} */
 footer{
     display: flex;
     
     ul{
         list-style: none;
         justify-content: space-evenly;
-        color:  rgba(172, 224, 185, 0.829);
-        font-size: 25px
+        color:  $colorfuente;
+        font-size: 25px;
     }
 }
 
@@ -13,8 +16,9 @@ footer{
 
 .contactfont {
     padding: 15px;
-    color: rgba(211, 212, 216, 0.801);
+    color: $color-font-body;
     font-weight: lighter;
     font-family: 'Share Tech', sans-serif;
     text-align: center;
 }
+

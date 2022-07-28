@@ -1,0 +1,29 @@
+Index:
+
+keywords: "reparacion, soporte, it, redes, arreglo, computadora, notebook, laptop, server, servidores, seguridad, virus, antivirus, pc, computadora, computacion"
+Titulo: TANKY SOLUCIONES | HOME
+Descripcion: "Consultoría IT y Servicios especializados en Gestionar Activos tecnológicos. Seguridad informática, reparacion, Soporte técnico, Auditoría.
+
+Contacto
+
+keywords: reparacion, telefono, mail, contacto soporte, computadora, notebook, laptop, server, servidores, seguridad, virus, antivirus, pc, computadora, computacion
+Titulo: TANKY SOLUCIONES | CONTACTO
+Descripcion: Contactanos y hace tu Consultoría IT, Seguridad informática, Reparacion, Soporte técnico, Auditoría, Redes, Infraestructura.
+
+Nosotros
+
+keywords:reparacion, soporte, sobre nosotros, quienes somos, que hacemos, computadora, notebook, laptop, server, servidores, seguridad, virus, antivirus, pc, computadora, computacion
+Titulo:TANKY SOLUCIONES | NOSOTROS 
+Descripcion: Nosotros somos una empresa de Consultoría IT, Seguridad informática, reparacion, Soporte técnico, Auditoría.
+
+Clientes
+
+keywords: reparacion, soporte, it, redes, arreglo, computadora, notebook, laptop, server, servidores, seguridad, virus, antivirus, pc, computadora, marcas, clientes
+Titulo:TANKY SOLUCIONES | CLIENTES
+Descripcion:Algunos de nuestros clientes que confiaron su Consultoría IT, Seguridad informática, reparacion, Soporte técnico, Auditoría.
+
+Servicios
+
+keywords:reparacion, soporte, it, redes, arreglo, que hacemos, reparacion, servicios, notebook, laptop, server, servidores, seguridad, virus, antivirus, pc, computadora, computacion
+Titulo:TANKY SOLUCIONES | SERVICIOS
+Descripcion: Contactanos por Consultoría IT y Servicios especializados en Gestionar Activos tecnológicos, Seguridad informática, Soporte técnico.

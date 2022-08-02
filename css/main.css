@@ -7,6 +7,12 @@ body {
   font-family: 'Share Tech', sans-serif;
   color: rgba(255, 255, 255, 0.5); }
 
+.navbar-collapse .navbar-nav .nav-link {
+  font-family: 'Share Tech', sans-serif;
+  color: rgba(172, 224, 185, 0.829);
+  font-size: 25px;
+  gap: 20px; }
+
 footer ul {
   list-style: none;
   display: flex;

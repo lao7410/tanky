@@ -3,11 +3,21 @@
     padding: 0;
 }
 
-/* html{
-    height: 100%;
-} */
+.encabezado {
+    background-image: url(./imagenes/fondo-header.png);
+    margin-bottom: 25px;
+
+
+}
+
+footer {
+    background-image: url(./imagenes/fondo-header.png);
+
+}
+
 body {
-    background-color: black;
+    background: rgb(25, 65, 120);
+    background: linear-gradient(0deg, rgba(25, 65, 120, 1) 0%, rgba(0, 0, 0, 1) 78%, rgba(0, 155, 255, 1) 100%);
     font-family: 'Share Tech', sans-serif;
     color: rgba(255, 255, 255, 0.5);
 
@@ -20,35 +30,70 @@ body {
 
 .navbar-collapse .navbar-nav .nav-link {
     font-family: 'Share Tech', sans-serif;
-    color: rgba(172, 224, 185, 0.829);
-    font-size: 25px;
+    color: rgb(129, 230, 230);
+    font-size: 35px;
+
     gap: 20px;
+    background-color: rgba(0, 69, 90, 0.034);
 }
 
-.iconoServ {
+.nav-item:hover {
+    transform: scale(1.1);
+}
+
+/* .dropdown-menu.show{
+    background-color: red;
+}
+ */
+.iconoServiciosindex {
     margin-top: 25px;
+    margin-bottom: 25px;
     display: flex;
     text-align: center;
 }
 
-/* .show{
-    background-color:rgba(255, 255, 255, 0.5);
-}
- */
-.logotipos {
-    font-size: 45px;
-    display: flex;
-    padding: 25px;
-    color: rgb(172, 224, 185, 0.829);
+.iconoServiciosindex img {
+    opacity: 55%;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
-.logotipos:hover {
-    color: rgb(126, 204, 23);
-    font-size: 49px;
+.iconoServiciosindex {
+    font-family: 'Share Tech', sans-serif;
+    color: rgba(255, 255, 255, 0.459);
+}
+
+.iconoServiciosindex :hover {
+    opacity: 100%;
+    color: aliceblue;
+    transform: scale(1.1);
+}
+
+.tipografia_titulo_logo {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.tipogria_descrp_logo {
+    font-weight: normal;
+    font-size: 20px;
 }
 
 .navbar-collapse {
     flex-grow: initial;
+}
+
+.carousel_index {
+    background-color: rgb(246, 244, 255);
+    height: 150px;
+}
+
+.carousel_index img {
+
+    align-content: space-between;
+    width: 150px;
+    height: 150px;
+    align-items: center;
 }
 
 footer ul {
@@ -117,9 +162,7 @@ footer ul {
 }
 
 .corousel_pag_1 {
-    height: 250px;
-    display: flex;
-    justify-content: space-between;
+    background-color: rgb(246, 244, 255);
 }
 
 .carousel-item {
@@ -128,9 +171,14 @@ footer ul {
     text-align: center;
 }
 
+.caousel_imagen {
+
+    align-content: space-between;
+}
+
 .carousel-item img {
-    height: 400px;
     object-fit: contain;
+
 }
 
 .tit_nosotros1 {
@@ -138,41 +186,9 @@ footer ul {
 }
 
 
-/* ul{
-    list-style: none;
-    display: flex;
-} */
-/* ul li a {
-    margin: 20px;
-    font-size: 1.3rem;
-    text-decoration: none;
-} */
-
-/* header{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-} */
-/* nav {
-    display: flex;
-    align-items: flex-start;
-    margin-top: auto;
-
-} */
 
 
-/* .encabezado{
-    grid-area: header;
-    display: flex;
-    justify-content: space-around;
-} */
-/* .logo{ 
-    width: 250px;
-    height: fit-content;
-    animation: fadein;
-    animation-duration: 2s;
-    animation-iteration-count: 3s;
-} */
+
 @keyframes fadein {
     0% {
         opacity: 0;
@@ -185,47 +201,8 @@ footer ul {
 
 @keyframes animate__lightSpeedInRight {}
 
-.encabezado__lista {
-    display: flex;
-    justify-content: space-between;
-    align-items: top;
-    padding: 10px;
-    font-size: 10px;
-    color: rgba(255, 255, 255, 0.5);
-    font-family: 'Share Tech', sans-serif;
-    height: 250px;
-    flex-wrap: wrap;
-}
 
-.encabezado__lista__item {
-    display: inline-block;
-    margin: 15px;
-}
-
-.itemSubmenu {
-    position: relative;
-
-}
-
-.encabezado__lista__submenu {
-    list-style: none;
-    position: absolute;
-    display: none;
-    /* top: 80%; */
-    font-size: 25px;
-}
-
-.itemSubmenu:hover .encabezado__lista__submenu {
-    display: block;
-}
-
-/* main{
-    background-image: url(./imagenes/fondo_main.jpg);
-    background-repeat: repeat;
-} */
-
-.icono_servicios {
-    /* width: 100; */
+/* .icono_servicios {
     flex-wrap: wrap;
     display: flex;
     align-items: center;
@@ -236,7 +213,7 @@ footer ul {
     font-size: small;
     font-family: 'Share Tech', sans-serif, ;
     gap: 55px;
-}
+} */
 
 .transi_logos {
     transition: transform 2s, background-color 2s;
@@ -266,76 +243,35 @@ footer ul {
     font-size: medium;
 }
 
-/* .icono_servicios__Subsecurity{
-    position: absolute;
-    display: none;
-    top: 100%;
-    font-size: 20px;
-} */
-
-.Seguridad:hover .icono_servicios__Subsecurity {
-    display: block;
-}
-
 .Servidor {
     position: relative;
 }
 
-/* .icono_servicios__Subservice{
-    position: absolute;
-    display: none;
-    top: 100%;
-    font-size: 20px;
-} */
-.Servidor:hover .icono_servicios__Subservice {
-    display: block;
 
-}
+
 
 .Soporte {
     position: relative;
 }
 
-/* .icono_servicios__Subsupport{
-    position: absolute;
-    display: none;
-    top: 100%;
-    font-size: 20px;
-} */
 
-.Soporte:hover .icono_servicios__Subsupport {
-    display: block;
-}
+
+
 
 .Equipamiento {
     position: relative;
 }
 
-/* .icono_servicios__Subequip{
-    position: absolute;
-    display: none;
-    top: 100%;
-    font-size: 20px;
-} */
 
-.Equipamiento:hover .icono_servicios__Subequip {
-    display: block;
-}
+
 
 .Capacitacion {
     position: relative;
 }
 
-/* .icono_servicios__Subcapacitacion{
-    position: absolute;
-    display: none;
-    top: 100%;
-    font-size: 20px;
-} */
 
-.Capacitacion:hover .icono_servicios__Subcapacitacion {
-    display: block;
-}
+
+
 
 .text_main {
     margin-top: 120px;
@@ -358,6 +294,7 @@ footer ul {
 .conten_xq_eleg2 {
     display: flex;
     padding: 15px;
+    margin-bottom: 25px;
 }
 
 .img2_main {
@@ -452,62 +389,47 @@ footer ul {
 
 }
 
+.servicios_transi {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.iconos {
+    /* background-color: rgba(255, 228, 196, 0.466); */
+    height: auto;
+    width: auto;
+    align-items: baseline;
+    
+}
+.icon{
+    font-size: 75px;
+    color: rgb(120, 143, 185);
+}
+
+#resaltar :hover{
+    transform: scale(1.01);
+    color: rgb(103, 226, 144);
+}
+
+.separador_iconos{
+    width: 1px;
+    color: black;
+    height: 100px;
+}
+
+.descripcion_serv {
+    height: auto;
+    max-width: 960px;
+    margin-left: 50px;
+    color: whitesmoke;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+
 @media screen and (max-width: 586px) {
 
-    /* .itemSubmenu:hover .encabezado__lista__submenu{
-        display: none;
-    } */
-    /* .icono_servicios{
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(2,300px) ;
-        grid-template-rows: repeat(3,300px);
-        padding: 20px;
-        align-items:center;
-        list-style: none;
-        justify-content:space-between ;
-        color: rgba(192, 194, 199, 0.747);
-        font-weight: lighter;
-        font-size: small;
-        font-family: 'Share Tech', sans-serif, ;
-    } */
-    /*    .icono_servicios__Subsecurity{
-        position: right;
-        display:grid;
-        align-content: flex-start;
-        padding-top: 20px ;
-        top: 100%;
-        font-size: 20px;
-        
-    } */
-    /*  .icono_servicios__Subservice{
-        position: absolute;
-        display:flex;
-        align-content: flex-end;
-        top: 100%;
-        font-size: 20px;
-    }
-    .icono_servicios__Subsupport{
-        position: absolute;
-        display:flex;
-        align-content: flex-end;
-        top: 100%;
-        font-size: 20px;
-    }
-    .icono_servicios__Subequip{
-        position: absolute;
-        display:flex;
-        align-content: flex-end;
-        top: 100%;
-        font-size: 20px;
-    }
-    .icono_servicios__Subcapacitacion{
-        position: absolute;
-        display:flex;
-        align-content: flex-end;
-        top: 100%;
-        font-size: 20px;
-    } */
     .text_main {
         margin-top: 120px;
         margin-bottom: 25px;

@@ -86,7 +86,17 @@ body {
 .carousel_index {
     background-color: rgb(246, 244, 255);
     height: 150px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
+.carousel{
+    width: 100%;
+}
+.carousel-inner{
+    width: 100%;
+}
+
 
 .carousel_index img {
 

@@ -83,6 +83,8 @@ body {
     flex-grow: initial;
 }
 
+/* CARROUSEL INDEX */
+
 .carousel_index {
     background-color: rgb(246, 244, 255);
     height: 150px;
@@ -90,13 +92,14 @@ body {
     justify-content: space-around;
     width: 100%;
 }
-.carousel{
-    width: 100%;
-}
-.carousel-inner{
+
+.carousel {
     width: 100%;
 }
 
+.carousel-inner {
+    width: 100%;
+}
 
 .carousel_index img {
 
@@ -104,6 +107,26 @@ body {
     width: 150px;
     height: 150px;
     align-items: center;
+}
+
+/* CARROUSEL CLIENTES */
+
+.carousel_index1 img {
+
+    align-content: space-between;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+}
+
+.carousel-inner1 {
+    width: 100%;
+}
+
+.carousel-item1 {
+    height: 200px;
+    width: 100%;
+    text-align: center;
 }
 
 footer ul {
@@ -118,16 +141,6 @@ footer ul {
     display: flex;
     justify-content: center;
     margin-top: 15px;
-}
-
-.carrou {
-    background-color: white;
-}
-
-.carrouselpage1 {
-    display: flex;
-    justify-content: space-between;
-    height: 300px;
 }
 
 .consulta1 {
@@ -154,6 +167,17 @@ footer ul {
     display: flex;
     align-content: center;
 }
+
+.separador_con_movimiento {
+    width: 70px;
+    height: 5px;
+    border-radius: 45px;
+    background-color: rgb(103, 226, 144);
+    margin-bottom: 15px;
+    display: flex;
+    align-content: center;
+}
+
 
 .imagen_servicios {
     display: flex;
@@ -195,6 +219,54 @@ footer ul {
     text-align: center;
 }
 
+.iconoServiciosindex1 {
+    display: flex;
+    text-align: center;
+}
+
+.logos_final_index {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.efectohov:hover {
+    color: rgba(244, 250, 187, 0.863);
+}
+
+.geeks {
+    width: 400px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.geeks::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: green;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 100%;
+    }
+
+    0% {
+        left: 0;
+    }
+}
 
 
 
@@ -210,6 +282,7 @@ footer ul {
 }
 
 @keyframes animate__lightSpeedInRight {}
+
 
 
 /* .icono_servicios {
@@ -410,19 +483,20 @@ footer ul {
     height: auto;
     width: auto;
     align-items: baseline;
-    
+
 }
-.icon{
+
+.icon {
     font-size: 75px;
     color: rgb(120, 143, 185);
 }
 
-#resaltar :hover{
+#resaltar :hover {
     transform: scale(1.01);
     color: rgb(103, 226, 144);
 }
 
-.separador_iconos{
+.separador_iconos {
     width: 1px;
     color: black;
     height: 100px;

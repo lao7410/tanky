@@ -483,7 +483,7 @@ footer ul {
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
 
     .text_main {
         margin-top: 120px;

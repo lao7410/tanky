@@ -149,6 +149,11 @@ body {
     object-fit: contain;
 
 }
+
+.container {
+    max-width: 100%;
+}
+
 /* FIN CAROUSELS */
 
 /* FOOTER */
@@ -166,6 +171,7 @@ footer ul {
     justify-content: center;
     margin-top: 15px;
 }
+
 /* FIN FOOTER */
 
 .consulta1 {
@@ -419,7 +425,16 @@ footer ul {
     align-items: baseline;
 }
 
+/* @media screen(min-width: 768px) {
 
+    .col-md-4 {
+        flex: 0 0 auto;
+        flex-grow 0;
+        flex-shrink 0;
+        flex-basis auto;
+    }
+}
+ */
 @media screen and (max-width: 425px) {
 
     .text_main {

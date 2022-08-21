@@ -1,0 +1,41 @@
+.contactfont {
+    padding: 15px;
+    color: rgba(211, 212, 216, 0.801);
+    font-weight: lighter;
+    font-family: 'Share Tech', sans-serif;
+    text-align: center;
+}
+
+.forminicial {
+    color: rgba(211, 212, 216, 0.801);
+    font-weight: bold;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.dentro_del_form {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.dentro_del_form_1 {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    color: rgba(211, 212, 216, 0.801);
+    font-weight: lighter;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.button {
+    margin: auto;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+

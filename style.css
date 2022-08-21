@@ -8,10 +8,6 @@
     margin-bottom: 25px;
 }
 
-footer {
-    background-image: url(./imagenes/fondo-header.png);
-
-}
 
 body {
     background: rgb(25, 65, 120);
@@ -155,12 +151,16 @@ body {
     margin-bottom: 50px;
 }
 
-.imagen_contacto{
+.imagen_contacto {
     margin-left: 45px;
 }
+
 /* FIN CAROUSELS */
 
 /* FOOTER */
+footer {
+    background-image: url(./imagenes/fondo-header.png);
+}
 
 footer ul {
     list-style: none;
@@ -509,8 +509,8 @@ footer ul {
         display: none;
     }
 
-    .imagen_contacto{
-       display: none;
+    .imagen_contacto {
+        display: none;
     }
 
 

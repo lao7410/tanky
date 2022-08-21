@@ -1,0 +1,160 @@
+.servicios_class {
+    .servicios_class1 {
+        padding: 2%;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        text-align: center;
+        color: azure;
+
+    }
+
+    .servicios_sin_media_q {
+        padding: 1%;
+
+        h2 {
+            margin-top: 25px;
+            text-align: center;
+            color: rgb(45, 248, 130);
+        }
+
+        .img_servicios {
+            height: 350px;
+            width: 98%;
+            margin-bottom: 25px;
+            border-radius: 25px;
+        }
+
+       .descripcion {
+            font-size: 25px;
+            color: azure;
+        }
+
+    }
+}
+
+.servicios_media_q {
+    margin-bottom: 35px;
+
+    .card {
+        margin-top: 25px;
+        padding: 1%;
+        background-color: black;
+        border-radius: 25px;
+        justify-content: center;
+        text-align: center;
+
+        .card-text {
+            color: azure;
+            text-align: center;
+        }
+
+
+    }
+
+}
+
+
+.servicios_transi {
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+    p {
+        font-size: 25px;
+        color: azure;
+        margin-bottom: 55px;
+    }
+
+    .iconos {
+        height: auto;
+        width: auto;
+        align-items: baseline;
+    }
+
+    .separador_iconos {
+        width: 1px;
+        color: black;
+        margin-bottom: 100px;
+    }
+
+    .icon {
+        font-size: 75px;
+        color: rgb(120, 143, 185);
+        margin-right: 25px;
+    }
+
+}
+
+
+#resaltar :hover {
+    transform: scale(1.01);
+    color: rgb(103, 226, 144);
+}
+
+@media(min-width:770px) {
+    .servicios_media_q {
+        display: none;
+    }
+
+    .img_servicios {
+        height: 250px;
+    }
+}
+
+@media(max-width:768px) {
+    .servicios_transi {
+        display: none;
+    }
+
+    .img_servicios {
+        height: 450px;
+    }
+
+    .icon {
+        font-size: 75px;
+        color: rgb(45, 248, 130);
+        text-align: center;
+    }
+}
+
+
+
+
+
+/* .descripcion_serv {
+    height: auto;
+    max-width: 960px;
+    margin-left: 50px;
+    color: azure;
+    flex-direction: column;
+    /*  align-items: baseline; */
+
+
+
+
+
+
+
+
+/* @media (min-width:1024px) {
+    .servicios_media_q {
+        display: none;
+    }
+
+}
+
+
+
+@media (min-width:425px) {
+    .servicios_transi {
+        display: none;
+    }
+
+    .icon {
+        font-size: 75px;
+        color: rgb(45, 248, 130);
+        text-align: center;
+    }
+
+} */

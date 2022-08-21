@@ -23,15 +23,15 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
   <header class="encabezado">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html"><img src="./imagenes/logo_tanky_sin_fondo_blanco_peque_1.png"
-            alt="Logo empresa"></a>
+        <a class="navbar-brand" data-aos="fade-right" href="./index.html"><img
+            src="./imagenes/logo_tanky_sin_fondo_blanco_peque_1.png" alt="Logo empresa"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -57,8 +57,81 @@
         </div>
       </div>
     </nav>
+    <div class="solo_mobile_index animate__animated animate__fadeIn">
+      <div class="container text-center col-xs-12">
+        <div class="row">
+          <div class="col">
+            <i class="bi bi-telephone"></i>
+            <p>TELEFONOS <br>+54 9 11 3333-3888 </p>
+          </div>
+          <div class="col">
+            <i class="bi bi-envelope"></i>
+            <p>MAIL <br>tankysoluciones@gmail.com</p>
+          </div>
+          <div class="col">
+            <i class="bi bi-whatsapp"></i>
+            <p>WHATSAPP <br>+54 9 11 4444-6666</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </header>
   <main>
+    <section class="carousel_index">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner carousel_imagen">
+          <div class="carousel-item active">
+            <img src="./imagene_marca/logo-cisco.png" alt="logo-cisco">
+            <img src="./imagene_marca/logo-hp.png" alt="logo-hp">
+            <img src="./imagene_marca/logo-hikvision.png" alt="logo-hikvision">
+            <img class="img_oculta_media" src="./imagene_marca/logo-microsoft.png" alt="logo-microsoft">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagene_marca/logo-hp.png" alt="logo-hp">
+            <img src="./imagene_marca/logo-hikvision.png" alt="logo-hikvision">
+            <img src="./imagene_marca/logo-microsoft.png" alt="logo-microsoft">
+            <img class="img_oculta_media" src="./imagene_marca/Logo-Gigabyte.png" alt="Logo-Gigabyte">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagene_marca/logo-hikvision.png" alt="logo-hikvision">
+            <img src="./imagene_marca/logo-microsoft.png" alt="logo-microsoft">
+            <img src="./imagene_marca/Logo-Gigabyte.png" alt="Logo-Gigabyte">
+            <img class="img_oculta_media" src="./imagene_marca/logo-dell.png" alt="logo-dell">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagene_marca/logo-microsoft.png" alt="logo-microsoft">
+            <img src="./imagene_marca/Logo-Gigabyte.png" alt="Logo-Gigabyte">
+            <img src="./imagene_marca/logo-dell.png" alt="logo-dell">
+            <img class="img_oculta_media" src="./imagene_marca/logo-amd.png" alt="logo-amd">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagene_marca/Logo-Gigabyte.png" alt="Logo-Gigabyte">
+            <img src="./imagene_marca/logo-dell.png" alt="logo-dell">
+            <img src="./imagene_marca/logo-amd.png" alt="logo-amd">
+            <img class="img_oculta_media" src="./imagene_marca/logo-asus.png" alt="logo-asus">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagene_marca/logo-dell.png" alt="logo-dell">
+            <img src="./imagene_marca/logo-amd.png" alt="logo-amd">
+            <img src="./imagene_marca/logo-asus.png" alt="logo-asus">
+            <img class="img_oculta_media" src="./imagene_marca/logo-cisco.png" alt="logo-cisco">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagene_marca/logo-amd.png" alt="logo-amd">
+            <img src="./imagene_marca/logo-asus.png" alt="logo-asus">
+            <img src="./imagene_marca/logo-cisco.png" alt="logo-cisco">
+            <img class="img_oculta_media" src="./imagene_marca/logo-hp.png" alt="logo-hp">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagene_marca/logo-asus.png" alt="logo-asus">
+            <img src="./imagene_marca/logo-cisco.png" alt="logo-cisco">
+            <img src="./imagene_marca/logo-hp.png" alt="logo-hp">
+            <img class="img_oculta_media" src="./imagene_marca/logo-hikvision.png" alt="logo-hikvision">
+          </div>
+        </div>
+    </section>
+
     <section class="container">
       <div class="row iconoServiciosindex">
         <div class="col-xs-12 col-sm-6 col-md-4">
@@ -118,64 +191,59 @@
           <div class="carousel-item active">
             <img src="./imagene_marca/logo-cisco.png" alt="logo-cisco">
             <img src="./imagene_marca/logo-hp.png" alt="logo-hp">
-            <img src="./imagene_marca/logo-hikvision.png" alt="logo-hikvision">
-            <img src="./imagene_marca/logo-microsoft.png" alt="logo-microsoft">
+            <img class="img_oculta_media2" src="./imagene_marca/logo-hikvision.png" alt="logo-hikvision">
+            <img class="img_oculta_media" src="./imagene_marca/logo-microsoft.png" alt="logo-microsoft">
           </div>
           <div class="carousel-item">
             <img src="./imagene_marca/logo-hp.png" alt="logo-hp">
             <img src="./imagene_marca/logo-hikvision.png" alt="logo-hikvision">
-            <img src="./imagene_marca/logo-microsoft.png" alt="logo-microsoft">
-            <img src="./imagene_marca/Logo-Gigabyte.png" alt="Logo-Gigabyte">
+            <img class="img_oculta_media2" src="./imagene_marca/logo-microsoft.png" alt="logo-microsoft">
+            <img class="img_oculta_media" src="./imagene_marca/Logo-Gigabyte.png" alt="Logo-Gigabyte">
           </div>
           <div class="carousel-item">
             <img src="./imagene_marca/logo-hikvision.png" alt="logo-hikvision">
             <img src="./imagene_marca/logo-microsoft.png" alt="logo-microsoft">
-            <img src="./imagene_marca/Logo-Gigabyte.png" alt="Logo-Gigabyte">
-            <img src="./imagene_marca/logo-dell.png" alt="logo-dell">
+            <img class="img_oculta_media2" src="./imagene_marca/Logo-Gigabyte.png" alt="Logo-Gigabyte">
+            <img class="img_oculta_media" src="./imagene_marca/logo-dell.png" alt="logo-dell">
           </div>
           <div class="carousel-item">
             <img src="./imagene_marca/logo-microsoft.png" alt="logo-microsoft">
             <img src="./imagene_marca/Logo-Gigabyte.png" alt="Logo-Gigabyte">
-            <img src="./imagene_marca/logo-dell.png" alt="logo-dell">
-            <img src="./imagene_marca/logo-amd.png" alt="logo-amd">
+            <img class="img_oculta_media2" src="./imagene_marca/logo-dell.png" alt="logo-dell">
+            <img class="img_oculta_media" src="./imagene_marca/logo-amd.png" alt="logo-amd">
           </div>
           <div class="carousel-item">
             <img src="./imagene_marca/Logo-Gigabyte.png" alt="Logo-Gigabyte">
             <img src="./imagene_marca/logo-dell.png" alt="logo-dell">
-            <img src="./imagene_marca/logo-amd.png" alt="logo-amd">
-            <img src="./imagene_marca/logo-asus.png" alt="logo-asus">
+            <img class="img_oculta_media2" src="./imagene_marca/logo-amd.png" alt="logo-amd">
+            <img class="img_oculta_media" src="./imagene_marca/logo-asus.png" alt="logo-asus">
           </div>
           <div class="carousel-item">
             <img src="./imagene_marca/logo-dell.png" alt="logo-dell">
             <img src="./imagene_marca/logo-amd.png" alt="logo-amd">
-            <img src="./imagene_marca/logo-asus.png" alt="logo-asus">
-            <img src="./imagene_marca/logo-cisco.png" alt="logo-cisco">
+            <img class="img_oculta_media2" src="./imagene_marca/logo-asus.png" alt="logo-asus">
+            <img class="img_oculta_media" src="./imagene_marca/logo-cisco.png" alt="logo-cisco">
           </div>
           <div class="carousel-item">
             <img src="./imagene_marca/logo-amd.png" alt="logo-amd">
             <img src="./imagene_marca/logo-asus.png" alt="logo-asus">
-            <img src="./imagene_marca/logo-cisco.png" alt="logo-cisco">
-            <img src="./imagene_marca/logo-hp.png" alt="logo-hp">
+            <img class="img_oculta_media2" src="./imagene_marca/logo-cisco.png" alt="logo-cisco">
+            <img class="img_oculta_media" src="./imagene_marca/logo-hp.png" alt="logo-hp">
           </div>
           <div class="carousel-item">
             <img src="./imagene_marca/logo-asus.png" alt="logo-asus">
             <img src="./imagene_marca/logo-cisco.png" alt="logo-cisco">
-            <img src="./imagene_marca/logo-hp.png" alt="logo-hp">
-            <img src="./imagene_marca/logo-hikvision.png" alt="logo-hikvision">
-          </div>
-          <div class="carousel-item">
-            <img src="./imagene_marca/logo-cisco.png" alt="logo-cisco">
-            <img src="./imagene_marca/logo-hp.png" alt="logo-hp">
-            <img src="./imagene_marca/logo-hikvision.png" alt="logo-hikvision">
-            <img src="./imagene_marca/logo-microsoft.png" alt="logo-microsoft">
+            <img class="img_oculta_media2" src="./imagene_marca/logo-hp.png" alt="logo-hp">
+            <img class="img_oculta_media" src="./imagene_marca/logo-hikvision.png" alt="logo-hikvision">
           </div>
         </div>
     </section>
-    <div>
+    </section>
+    <section class="contenido_index">
       <h2 class="text_main">
         ¿POR QUÉ ELEGIRNOS?
       </h2>
-      <section class="xq_eleg">
+      <div class="xq_eleg">
         <div class="conten_xq_eleg">
           <img class="img2_main img-fluid" src="./imagenes/img2_main.png" data-aos="flip-left" alt="Imagen2main">
           <p class="text_xq_eleg">
@@ -189,60 +257,69 @@
             ofrecer la solución adecuada y con el firme compromiso de asegurar el éxito de cada proyecto.
           </p>
         </div>
-      </section>
-      <section class="xq_eleg">
+      </div>
+      <div class="xq_eleg2">
         <div class="conten_xq_eleg2">
-          <p class="text_xq_eleg">
+          <p class="text_xq_eleg2">
             Nuestro servicio de soporte técnico para empresas es una alternativa eficiente y accesible en términos
             económicos, capaz de asistir en una de las áreas que requieren un alto grado de especialización.
             Por eso mismo, el diagnóstico meticuloso de cada área tecnológica nos permitirá brindarle específicamente lo
             que sus equipos y sistemas necesitan para lograr una operatividad óptima en cualquier condición de
-            exigencia. 
-            Gestionamos en su totalidad la estación de trabajo configurando cada puesto según la necesidad del usuario. Realizamos reparaciones hardware y software de las estaciones de trabajo tanto desktop como portátil. Mediante software, obtenemos monitoreo en tiempo real de cada estación, permitiendo ir delante del evento.
-De forma complementaria, remota / presencial con nuestras licencias de acceso remoto, realizamos las actualizaciones necesarias al sistema operativo como a cada software instalado en el equipo del usuario, ofreciendo un mantenimiento continuo con el fin de reducir las vulnerabilidades del software del fabricante.
+            exigencia.
+            Gestionamos en su totalidad la estación de trabajo configurando cada puesto según la necesidad del usuario.
+            Realizamos reparaciones hardware y software de las estaciones de trabajo tanto desktop como portátil.
+            Mediante software, obtenemos monitoreo en tiempo real de cada estación, permitiendo ir delante del evento.
+            De forma complementaria, remota / presencial con nuestras licencias de acceso remoto, realizamos las
+            actualizaciones necesarias al sistema operativo como a cada software instalado en el equipo del usuario,
+            ofreciendo un mantenimiento continuo con el fin de reducir las vulnerabilidades del software del fabricante.
           </p>
           <img class="img3_main img-fluid " src="./imagenes/img_soport-tec-main.png" data-aos="flip-left"
             alt="soportetecnico">
         </div>
-    </div>
-    <section class="text_xq_eleg3">
-      <div>
-        <h3>AMPLIA EXPERIENCIA EN DISTINTOS SECTORES.</h3>
-        <p>Nos adaptamos a las necesidades características de cada industria y específicas de cada empresa.
-          Identificamos las problemáticas del sector y adaptamos los recursos tecnológicos existentes en el mercado
-          según los requerimientos de nuestros clientes.</p>
-        <h3>Herramientas de colaboración y productividad:</h3>
-        <p>verdadero espacio de trabajo integrado, en el cual los usuarios podrán tener una experiencia laboral colaborativa y unificada desde cualquier lugar, en cualquier momento y con cualquier dispositivo. </p>
       </div>
-      <section class="container" data-aos="fade-up" data-aos-duration="3000">
-        <div class="row iconoServiciosindex1">
-          <div class="col-xs-12 col-sm-6 col-md-4 efectohov ">
-            <i class="bi bi-building fa-beat-fade fa-3x"></i>
-            <P class="logos_final_index">EMPRESAS</P>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 efectohov">
-            <i class="bi bi-heart-pulse fa-beat-fade fa-3x"></i>
-            <P class="logos_final_index">SALUD</P>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 efectohov">
-            <i class="fa-solid fa-store fa-beat-fade fa-3x"></i>
-            <P class="logos_final_index">LOCALES</P>
-          </div>
-          
-          <div class="col-xs-12 col-sm-6 col-md-4 efectohov">
-            <i class="fa-solid fa-industry fa-beat-fade fa-3x"></i>
-            <p class="logos_final_index">INDUSTRIA</p>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 efectohov">
-            <i class="fa-solid fa-scale-balanced fa-beat-fade fa-3x"></i>
-            <P class="logos_final_index">LEGALES</P>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 efectohov">
-            <i class="fa-solid fa-graduation-cap fa-beat-fade fa-3x"></i>
-            <P class="logos_final_index">EDUCACACION</P>
-          </div>
-          
+      <section class="text_xq_eleg3">
+        <div class="conten_xq_eleg3">
+          <h3>AMPLIA EXPERIENCIA EN DISTINTOS SECTORES.</h3>
+          <div class="separadores_index"></div>
+          <p>Nos adaptamos a las necesidades características de cada industria y específicas de cada empresa.
+            Identificamos las problemáticas del sector y adaptamos los recursos tecnológicos existentes en el mercado
+            según los requerimientos de nuestros clientes.</p>
+          <h3>HERRAMIENTAS DE COLABORACION Y PRODUCTIVIDAD</h3>
+          <div class="separadores_index"></div>
+          <p>Verdadero espacio de trabajo integrado, en el cual los usuarios podrán tener una experiencia laboral
+            colaborativa y unificada desde cualquier lugar, en cualquier momento y con cualquier dispositivo. </p>
         </div>
+        </div>
+        <section class="container col-xs-12 col-sm-5 col-md-5" data-aos="fade-up" data-aos-duration="3000">
+          <div class="row iconoServiciosindex1">
+            <div class="col-xs-12 col-sm-6 col-md-4 efectohov ">
+              <i class="fa-solid fa-city fa-beat-fade fa-3x"></i>
+              <P class="logos_final_index">EMPRESAS</P>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 efectohov">
+              <i class="fa-solid fa-heart-pulse fa-beat-fade fa-3x"></i>
+              <P class="logos_final_index">SALUD</P>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 efectohov">
+              <i class="fa-solid fa-scale-balanced fa-beat-fade fa-3x"></i>
+              <P class="logos_final_index">LEGALES</P>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 efectohov">
+              <i class="fa-solid fa-industry fa-beat-fade fa-3x"></i>
+              <p class="logos_final_index">INDUSTRIA</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 efectohov">
+              <i class="fa-solid fa-store fa-beat-fade fa-3x"></i>
+              <P class="logos_final_index">LOCALES</P>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 efectohov">
+              <i class="fa-solid fa-graduation-cap fa-beat-fade fa-3x"></i>
+              <P class="logos_final_index">EDUCACACION</P>
+            </div>
+
+          </div>
+        </section>
       </section>
     </section>
   </main>

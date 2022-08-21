@@ -1,0 +1,149 @@
+/* CARROUSEL INDEX */
+.carousel {
+    width: 100%;
+}
+
+.carousel_index {
+    background-color: rgb(238, 236, 245);
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.carousel_index img {
+    align-content: space-between;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+}
+
+/* CARROUSEL CLIENTES */
+.backcarcliente {
+    background-color: white;
+    width: 100%;
+    height: 180px;
+    margin-bottom: 50px;
+}
+
+.backcarcliente_media {
+    background-color: white;
+    opacity: 95%;
+    width: 100%;
+    height: 155px;
+    margin-bottom: 40px;
+}
+
+.backcarcliente_media1 {
+    background-color: white;
+    opacity: 95%;
+    width: 100%;
+    height: 155px;
+    margin-bottom: 40px;
+}
+
+.carousel_index1 img {
+    align-content: space-between;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+}
+
+.carousel-inner1 {
+    width: 100%;
+}
+
+.carousel-item1 {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel {
+    width: max-content;
+}
+
+.corousel_pag_1 {
+    background-color: rgb(246, 244, 255);
+}
+
+.carousel-item {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.caousel_imagen {
+
+    align-content: space-between;
+}
+
+.carousel-item img {
+    object-fit: contain;
+
+}
+
+.container {
+    max-width: 100%;
+    /* margin-bottom: 50px; */
+}
+
+.imagen_contacto {
+    margin-left: 45px;
+}
+
+/* FIN CAROUSELS */
+
+
+@media(min-width:1024px) {
+    .backcarcliente_media1 {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    body {
+        padding: 1%;
+    }
+    .img_oculta_media{
+        display: none;
+    }
+    .backcarcliente_media {
+        display: none;
+       
+    }
+
+    /*   .backcarcliente {
+        display: block;
+    }
+ */
+    .carousel_index {
+        .img_oculta_media {
+            display: none;
+        }
+
+        .backcarcliente_media {
+            display: none;
+        }
+    }
+
+}
+
+@media (max-width: 426px) {
+    body {
+        padding: 1%;
+    }
+
+    .img_oculta_media {
+        display: none;
+    }
+
+    .img_oculta_media2 {
+        display: none;
+    }
+
+}

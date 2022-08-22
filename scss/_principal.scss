@@ -9,15 +9,15 @@
 
 .iconoServiciosindex {
     font-family: 'Share Tech', sans-serif;
-    color: rgba(255, 255, 255, 0.459);
+    color: $color-carousel;
     text-align: center;
     margin: 50px;
 }
 
 .iconoServiciosindex :hover {
     opacity: 100%;
-    color: aliceblue;
-    transform: scale(1.1);
+    color: $color-carousel;
+    transform: scale(1.09);
 }
 
 .tipografia_titulo_logo {
@@ -121,6 +121,10 @@
     margin-bottom: 25px;
     text-align: justify;
 }
+.text_xq_eleg3 p{
+    color: $color-carousel;
+}
+
 
 .iconoServiciosindex1 {
     margin-top: auto;
@@ -176,7 +180,7 @@
         .text_main {
             margin-top: 120px;
             margin-bottom: 25px;
-            color: azure;
+            color: $color-carousel;
             font-weight: bold;
             font-family: 'Share Tech', sans-serif;
             text-align: center;
@@ -184,7 +188,7 @@
 
         .xq_eleg {
             display: flex;
-            color: rgba(211, 212, 216, 0.801);
+            color:$color-font-body;
             font-weight: lighter;
             font-family: 'Share Tech', sans-serif;
             font-size: 20px;
@@ -211,7 +215,7 @@
         }
 
         .xq_eleg2 {
-            color: rgba(211, 212, 216, 0.801);
+            color:$color-font-body;
             font-weight: lighter;
             font-family: 'Share Tech', sans-serif;
             font-size: 18px;
@@ -238,17 +242,15 @@
 
     }
 
-    h3 {
-        color: azure;
-    }
-
     .conten_xq_eleg3 {
 
         margin-right: 10%;
     }
 
     .text_xq_eleg3 {
-
+        .p{
+            color: $color-carousel;
+        }
         display: flex;
         padding: 50px;
         margin-bottom: 25px;
@@ -264,7 +266,7 @@
     .logos_final_index {
         margin-top: 15px;
         margin-bottom: 15px;
-        color: azure;
+        color: $color-carousel;
         flex-direction: column;
     }
 

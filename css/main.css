@@ -90,14 +90,14 @@ footer ul {
 
 .iconoServiciosindex {
   font-family: 'Share Tech', sans-serif;
-  color: rgba(255, 255, 255, 0.459);
+  color: #eeecf5;
   text-align: center;
   margin: 50px; }
 
 .iconoServiciosindex :hover {
   opacity: 100%;
-  color: aliceblue;
-  transform: scale(1.1); }
+  color: #eeecf5;
+  transform: scale(1.09); }
 
 .tipografia_titulo_logo {
   font-weight: bold;
@@ -176,6 +176,9 @@ footer ul {
   margin-bottom: 25px;
   text-align: justify; }
 
+.text_xq_eleg3 p {
+  color: #eeecf5; }
+
 .iconoServiciosindex1 {
   margin-top: auto;
   color: #67e290;
@@ -215,7 +218,7 @@ footer ul {
     .contenido_index .text_main {
       margin-top: 120px;
       margin-bottom: 25px;
-      color: azure;
+      color: #eeecf5;
       font-weight: bold;
       font-family: 'Share Tech', sans-serif;
       text-align: center; }
@@ -257,8 +260,6 @@ footer ul {
         height: max-content;
         padding: 15px;
         width: fit-content; }
-  h3 {
-    color: azure; }
   .conten_xq_eleg3 {
     margin-right: 10%; }
   .text_xq_eleg3 {
@@ -266,13 +267,15 @@ footer ul {
     padding: 50px;
     margin-bottom: 25px;
     text-align: justify; }
+    .text_xq_eleg3 .p {
+      color: #eeecf5; }
   .iconoServiciosindex1 {
     margin-top: 50px;
     white-space: wrap; }
   .logos_final_index {
     margin-top: 15px;
     margin-bottom: 15px;
-    color: azure;
+    color: #eeecf5;
     flex-direction: column; } }
 
 @media (max-width: 425px) {

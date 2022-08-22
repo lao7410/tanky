@@ -1,12 +1,3 @@
-/* CARROUSEL INDEX */
-.carousel {
-    width: 100%;
-}
-
-.carousel-inner {
-    width: 100%;
-}
-
 .carousel_index {
     background-color: $color-carousel;
     height: 150px;
@@ -59,42 +50,17 @@
     width: 100%;
 }
 
-.carousel-item1 {
-    height: 200px;
-    width: 100%;
-    text-align: center;
-}
-
 .carousel {
     width: max-content;
 }
-
-/* .corousel_pag_1 {
-    background-color: rgb(246, 244, 255);
-} */
 
 .carousel-item {
     height: 200px;
     width: 100%;
     text-align: center;
+
+    img {
+        object-fit: contain;
+
+    }
 }
-
-.caousel_imagen {
-
-    align-content: space-between;
-}
-
-.carousel-item img {
-    object-fit: contain;
-
-}
-
-.container {
-    max-width: 100%;
-}
-
-.imagen_contacto {
-    margin-left: 45px;
-}
-
-/* FIN CAROUSELS */

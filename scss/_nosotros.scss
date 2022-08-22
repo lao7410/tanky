@@ -13,7 +13,7 @@
 
 .form_nos {
     margin-top: 30px;
-    color:map-get($colores, colorfuente );
+    color: map-get($colores, colorfuente);
     display: flex;
     text-align: center;
     justify-content: center;
@@ -27,7 +27,7 @@
         }
 
         .card-body {
-            background-color:map-get($map: $colores, $key:color-principal );
+            background-color: map-get($map: $colores, $key: color-principal);
             font-weight: 55px;
             text-align: center;
         }

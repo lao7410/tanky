@@ -1,11 +1,17 @@
 $color-principal: black;
 $colorfuente: rgba(172, 224, 185, 0.829);
 $color-font-body: rgba(211, 212, 216, 0.801);
-
+$color-footer-ul: rgba(172, 224, 185, 0.829);
+$color-body: rgba(255, 255, 255, 0.5);
+$color-navbar: rgb(129, 230, 230);
+$color-cards-text: rgba(34, 197, 148, 0.801);
+$color-contact-font: rgba(241, 243, 248, 0.801);
+$color-carousel: rgb(238, 236, 245);
+$color-back-carousels: white;
 
 $colores: (
-    "color-fondo": black,
-    "color-header":rgba(172, 224, 185, 0.829),
-    "color-textos":rgba(211, 212, 216, 0.801),
+    "color-principal": black,
+    "colorfuente": rgba(172, 224, 185, 0.829),
 );
 
+$pantalla: 1024px;

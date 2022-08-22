@@ -1,0 +1,21 @@
+@mixin separadores ($align, $float) {
+    width: 50%;
+    height: 5px;
+    border-radius: 45px;
+    background-color: rgb(103, 226, 144);
+    margin-bottom: 35px;
+    margin-top: 35px;
+    display: flex;
+    align-content: $align;
+    float: $float;
+
+}
+
+.separador {
+    @include separadores(center, none);
+}
+
+.separador2 {
+    @include separadores(flex-end, right);
+
+}

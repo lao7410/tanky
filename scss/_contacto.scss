@@ -1,5 +1,5 @@
 .contactfont {
-    color: rgba(241, 243, 248, 0.801);
+    color: $color-contact-font;
     font-weight: lighter;
     font-family: 'Share Tech', sans-serif;
     text-align: center;
@@ -19,3 +19,6 @@
     padding: 50px;
     justify-content: center;
 }
+ .main__contact{
+    margin-bottom: 50px;
+ }

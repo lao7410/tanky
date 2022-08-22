@@ -18,7 +18,7 @@ h3 {
 
 .navbar-collapse .navbar-nav .nav-link {
     font-family: 'Share Tech', sans-serif;
-    color: rgb(129, 230, 230);
+    color: $color-navbar;
     font-size: 35px;
     gap: 20px;
     background-color: rgba(0, 69, 90, 0.034);
@@ -31,24 +31,28 @@ h3 {
 body {
     background-size: cover;
     font-family: 'Share Tech', sans-serif;
-    color: rgba(255, 255, 255, 0.5);
+    color: $color-body;
     background: url(../imagenes/fondo_main_2.jpg) repeat fixed;
 }
 
 
 footer {
     background-image: url(../imagenes/fondo_body.jpg);
+
+    .foot {
+        color: $color-navbar;
+    }
 }
+
 
 footer ul {
     list-style: none;
     flex-direction: row;
     display: flex;
     justify-content: space-around;
-    color: rgba(172, 224, 185, 0.829);
+    color: $color-footer-ul;
     font-size: 30px;
     margin-top: 25px;
-    padding-left: 0%;
 }
 
 .copyright {
@@ -59,6 +63,6 @@ footer ul {
 
 .solo_mobile_index p {
     font-family: 'Share Tech', sans-serif;
-    color: rgb(129, 230, 230);
+    color: $color-navbar;
     font-weight: lighter;
 }
